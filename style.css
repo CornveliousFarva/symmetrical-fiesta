@@ -4,4 +4,13 @@
     box-sizing: border-box;
 }
 
-
+body{
+   min-height: fit-content;
+   transition: 0.5s;
+   transition-timing-function: ease-in-out;
+   background-image: linear-gradient(to right bottom, rgb(255, 128, 128) #ffedbc);
+   display: flex;
+   align-items: center;
+   align-items: center;
+   justify-content: center; 
+}
