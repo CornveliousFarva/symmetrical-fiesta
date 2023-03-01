@@ -21,7 +21,7 @@ const getNewQuote = async () => {
     // Store the quote present at the randomly generated index
     const quote = allQuotes[index].author;
 
-    if(auth == null){
+    if(author == null){
         author = "Anonymous"
     }
 
