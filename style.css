@@ -74,7 +74,15 @@ hr{
 }
 
 .facebook{
-    
+    border: 1px solid lightskyblue;
+    border-radius: 4px;
+    background-color:lightskyblue;
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    width: 60px;
+    height: 35px;
+    line-height: 40px;
 }
 
 .next{
