@@ -18,7 +18,19 @@ const getNewQuote = async () => {
     // Generates a random number between 0 and the length of the quotes array
     const index = Math.floor(Math.random() * allQuotes.length);
 
+    // Store the quote present at the randomly generated index
+    const quote = allQuotes[index].author;
+
+    if(auth == null){
+        author = "Anonymous"
+    }
+
+    // function that will dynamically display the quote and the author
+    text.innerHTML = quote;
+    author.innerHTML = "~ " + auth;
     
+    // Tweet the quote
+    tweetButton.href="https://twitter.com/intent/tweet?text="+quote+" ~ "+auth;
 }
 
 getNewQuote();
